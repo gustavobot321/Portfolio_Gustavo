@@ -1,53 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table,th, td {
-            border: 1px solid #000;
-            border-collapse: collapse;
-            
-        }
-    </style>
-    <title>Meu Portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    main {
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    img {
+      display: block;
+      width: 120px;
+      border-radius: 50%;
+      margin: 10px auto;
+    }
+
+    h2 {
+      color: #222;
+      border-left: 4px solid #ffd700;
+      padding-left: 8px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ffd700;
+      color: #222;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Meu Porfólio</h1>
-    <ul>
-        <li><a href= "index.html" >Home</a></li>
-        <li><a href= "https://www.linkedin.com/in/gustavo-oliveira-bb3b84263/" >Linkedin</a></li>
-        <li><a href= "https://github.com/gustavobot321" >Github</a></li>
-        <li><a href= "https://www.instagram.com/gussttavo.oliveira/" >Instagram</a></li>
-    </ul>
-    <img src="gustag-fotor-202508319936.jpg" style ="width: 10%;">
+
+  <header>
+    <h1>Meu Portfólio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://www.linkedin.com/in/gustavo-oliveira-bb3b84263/">LinkedIn</a></li>
+        <li><a href="https://github.com/gustavobot321">GitHub</a></li>
+        <li><a href="https://www.instagram.com/gussttavo.oliveira/">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img src="gustag-fotor-202508319936.jpg" alt="Foto de Gustavo de Oliveira">
+
     <h2>Sobre mim</h2>
     <p>
-        Olá, Meu nome é Gustavo de Oliveira Machado, Sou estudante e iniciante na área de Tecnologia da Informação, em busca de desenvolver minhas habilidades e construir uma carreira sólida na área de desenvolvimento web. Tenho conhecimento em HTML, CSS e JavaScript, e estou sempre me dedicando a aprender novas ferramentas e boas práticas.
+      Olá! Meu nome é <strong>Gustavo de Oliveira Machado</strong>.  
+      Sou estudante e iniciante na área de <strong>Tecnologia da Informação</strong>.  
+      Tenho conhecimentos básicos em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.  
+      Estou sempre em busca de aprender e evoluir na área de desenvolvimento web.
     </p>
-    <h2>Habilidades Profissionais</h2>
+
+    <h2>Habilidades</h2>
     <table>
-        <tr>
-            <th>Habilidades</th>
-            <th>Tempo de experiência</th>
-            <th>Nível</th>
-        </tr>
-        <tr>
-            <td>HTML5</td>
-            <td>1 mês</td>
-            <td>Básico</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>1 mês</td>
-            <td>Básico</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>2 meses</td>
-            <td>Básico</td>
-        </tr>
+      <tr>
+        <th>Tecnologia</th>
+        <th>Tempo de Experiência</th>
+        <th>Nível</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>1 mês</td>
+        <td>Básico</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>1 mês</td>
+        <td>Básico</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>2 meses</td>
+        <td>Básico</td>
+      </tr>
     </table>
-    
+  </main>
+
+  <footer>
+    © 2025 Gustavo de Oliveira Machado
+  </footer>
+
 </body>
 </html>
